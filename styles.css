@@ -1,1 +1,63 @@
-/* your code here */
+*{
+	color:white;
+	font-family:arial;
+	margin:0;
+	padding:0;
+}
+
+.content{
+	width:700px;
+	background-color:black;
+}
+
+.logo_name{
+	font-size:30px
+}
+
+.media-icons{
+	display:flex;
+	justify-content:space-evenly;
+}
+
+img{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	margin-inline:5px
+}
+
+.top{
+	display:flex;
+	justify-content:space-between;
+	padding:30px;
+}
+
+.link-boxes{
+	display:flex;
+	justify-content:space-between;
+	padding:30px;
+}
+
+h4{
+	text-decoration:underline;
+	font-weight:lighter;
+	margin-bottom:5px;
+}
+
+a{
+	color:rgb(183,185,188);
+	font-size:13px;
+}
+
+.bottom{
+	color:rgb(183,185,188);
+	font-size:13px;
+	padding:15px 30px;
+}
+
+.bottom-details{
+	width:700px;
+	background-color: rgb(44,48,58);
+	display:flex;
+	justify-content:space-between;
+}
